@@ -81,7 +81,7 @@ file_name_label.pack()
 
 # Create a textbox to display the result
 result_textbox = tk.Text(window, font=("Courier New", 10), height=15, width=50)
-result_textbox.pack()
+result_textbox.pack(pady=10)
 
 # Run the main window event loop
 window.mainloop()
